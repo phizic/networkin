@@ -14,3 +14,5 @@ ping_bang 10 8.8.8.8
 
 # issue no.1 (currently under developement)
 echo "average time for connections:"
+# stream end of ping file to a temporary file then grab last line and printf the average time
+echo nothing
