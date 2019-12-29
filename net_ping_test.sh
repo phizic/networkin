@@ -1,7 +1,7 @@
 #!/bin/bash
 
 ping_bang () {
-    echo "This may take a while..."
+    echo $1 "packets to send. This may take a while..."
     ping -c $1 $2 | tail -n 3
 }
 
