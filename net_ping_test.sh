@@ -14,7 +14,7 @@ ping_bang 20 8.8.8.8
 
 # displaying connection parameters suing speedtestnet-cli (should consider case in which this is not present)
 echo "Running speedtestnet..."
-speedtestnet-cli --simple
+speedtest-cli --simple
 
 # issue no.1 (currently under developement)
 echo "average time for connections:"
